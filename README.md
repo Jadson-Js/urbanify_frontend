@@ -15,6 +15,14 @@
 
 ---
 
+## 🎬 Demonstração
+
+<p align="center">
+  <img src="public/presentation.gif" alt="Demonstração do Urbanify Dashboard" width="100%" />
+</p>
+
+---
+
 ## 📋 Sobre o Projeto
 
 O **Urbanify Frontend** é um dashboard administrativo desenvolvido para gestores públicos acompanharem e gerenciarem reports de infraestrutura urbana. A aplicação oferece visualização geográfica em tempo real, métricas analíticas e sistema de ranking dos cidadãos mais ativos.
