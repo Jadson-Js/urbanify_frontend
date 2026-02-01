@@ -1,0 +1,40 @@
+.button {
+  background: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button__severe {
+  border: 2px solid rgba(255, 62, 77, 0.5);
+}
+
+.button__moderate {
+  border: 2px solid rgba(255, 193, 7, 0.5);
+}
+
+.button__icon {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button__icon__severe {
+  background: rgba(255, 62, 77, 0.6);
+}
+
+.button__icon__moderate {
+  background: rgba(255, 193, 7, 0.6);
+}
+
+.bg__severe {
+  background: rgba(255, 62, 77, 0.4);
+}
+
+.bg__moderate {
+  background: rgba(255, 193, 7, 0.4);
+}

@@ -1,0 +1,28 @@
+.card__container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--c12);
+}
+
+.value {
+  padding-bottom: 9px;
+  margin-bottom: 9px;
+  border-bottom: 1px solid var(--c10);
+}
+
+.dash__box__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--c12);
+  border-radius: 2px;
+  border: 1px solid var(--c-10, rgba(237, 237, 237, 1));
+  padding: 24px;
+}
+
+.card__increment {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}

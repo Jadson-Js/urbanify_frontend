@@ -1,0 +1,58 @@
+.search {
+  position: absolute;
+  background: white;
+  border: 2px solid var(--c8);
+  border-radius: 10px;
+  z-index: 2;
+  top: 1rem;
+  left: 1rem;
+}
+
+.search__active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.search__input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.search__icon {
+  cursor: pointer;
+}
+
+/* Estilos para o autocomplete */
+.autocompleteSuggestions {
+  position: absolute;
+  left: 0;
+  background: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 60;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-height: 20rem;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-top: 2px solid var(--c10);
+}
+
+.autocompleteSuggestion {
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.autocompleteSuggestion:hover {
+  background-color: var(--c10);
+}

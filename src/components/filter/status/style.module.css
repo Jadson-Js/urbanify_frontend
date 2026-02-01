@@ -1,0 +1,17 @@
+.filter__PR {
+  display: flex;
+  height: 100%;
+  gap: 32px;
+}
+
+.filter__PR > span {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 100%;
+}
+
+.selected {
+  border-bottom: 2px solid var(--p1);
+  color: var(--p1);
+}

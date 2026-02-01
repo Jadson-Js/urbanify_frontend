@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  gap: 5px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  font: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--c8);
+  color: var(--c2);
+  background: var(--c12);
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  width: 2rem;
+  height: 2rem;
+}
+
+.prev,
+.next {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--c4);
+}
+
+.select {
+  background-color: var(--p1);
+  color: var(--c12);
+}
+
+.disabled {
+  border: none;
+  color: var(--c8);
+}

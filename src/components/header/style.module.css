@@ -1,0 +1,8 @@
+.header {
+  background: var(--c12);
+  padding: 1.5rem;
+}
+
+.header__title {
+  text-transform: capitalize;
+}

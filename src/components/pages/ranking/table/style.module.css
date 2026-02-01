@@ -1,0 +1,105 @@
+.tableContainer {
+  width: 100%;
+  overflow: hidden; /* Impede que o scroll apareça na tela toda */
+}
+
+.tableWrapper {
+  max-width: 100%;
+  overflow-x: auto; /* Adiciona o scroll apenas na tabela */
+}
+
+.table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse; /* Mantém as bordas organizadas */
+  min-width: 800px; /* Defina um valor mínimo para a tabela */
+}
+
+.header__list,
+.body__list {
+  display: flex;
+  width: 100%;
+}
+
+.header__list th,
+.body__list td {
+  flex: none; /* Remove o comportamento de flex-grow */
+  width: calc(100% / 7);
+  text-align: center; /* Centraliza horizontalmente */
+  vertical-align: middle; /* Centraliza verticalmente */
+  padding: 0.5rem 1rem; /* Espaçamento interno */
+  border: 1px solid var(--c10); /* Bordas organizadas */
+  cursor: pointer;
+}
+
+.body__list td {
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.body__list_select td {
+  background: rgba(0, 123, 255, 0.1);
+}
+
+.header__list th {
+  border: 1px solid var(--c6);
+}
+
+.header__list th {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  gap: 0.5rem; /* Espaço entre o texto e ícones */
+  padding: 0.5rem; /* Ajusta o espaçamento */
+  border-bottom: 2px solid var(--c8); /* Borda inferior destacada */
+
+  background: var(--p1);
+  color: var(--c10);
+}
+
+.header__list th span,
+.header__list th div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pagination {
+  display: flex;
+  gap: 5px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  font: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--c8);
+  color: var(--c2);
+  background: var(--c12);
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+  width: 2rem;
+  height: 2rem;
+}
+
+.prev,
+.next {
+  width: 1.4rem;
+  height: 1.4rem;
+  color: var(--c4);
+}
+
+.select {
+  background-color: var(--p1);
+  color: var(--c12);
+}
+
+.disabled {
+  border: none;
+  color: var(--c8);
+}

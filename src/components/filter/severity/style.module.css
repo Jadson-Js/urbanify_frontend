@@ -1,0 +1,16 @@
+.filter__list {
+  display: flex;
+}
+
+.list__item {
+  color: var(--c4);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--c8);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.select {
+  border: 1px solid var(--p1);
+  color: var(--p1);
+}

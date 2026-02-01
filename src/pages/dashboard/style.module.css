@@ -1,0 +1,48 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 1.5rem;
+}
+
+.dashboard > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 24px;
+}
+
+.dash__box__info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--c12);
+  border-radius: 2px;
+  border: 1px solid var(--c-10, rgba(237, 237, 237, 1));
+  padding: 24px;
+}
+
+.dash__mapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--c12);
+  margin-top: 1.5rem;
+  border-radius: 2px;
+  flex: 1;
+}
+
+.map__bg {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 1.5rem;
+  height: 100%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.map__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 100%;
+}

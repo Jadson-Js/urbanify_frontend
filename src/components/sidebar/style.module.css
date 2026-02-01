@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--c12);
+  padding: 0.5rem 0;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  min-height: calc(100vh - 4rem);
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__item {
+  display: flex;
+  gap: 10px;
+  padding: 16px;
+  align-items: center;
+  list-style: none;
+  color: var(--c1);
+  padding-right: 1rem;
+  text-transform: capitalize;
+}
+
+.active {
+  background-color: rgba(0, 123, 255, 0.15);
+  border-right: 2px solid var(--p1);
+}
+
+.active li span,
+.active li svg {
+  color: var(--p1);
+  fill: var(--p1);
+}
+
+.item__icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}

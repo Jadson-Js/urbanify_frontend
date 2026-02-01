@@ -1,0 +1,53 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__header {
+  margin-bottom: 4rem;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.login__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__content {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.login__title {
+  text-align: center;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 22.5rem;
+}
+
+.login__footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}

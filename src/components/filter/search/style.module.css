@@ -1,0 +1,49 @@
+.search__box {
+  position: relative;
+  background: white;
+  color: var(--c4);
+  border: 1px solid var(--c8);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.search__input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0.5rem;
+}
+
+.search__icon {
+  cursor: pointer;
+  padding-right: 0.5rem;
+}
+
+/* Estilos para o autocomplete */
+.autocompleteSuggestions {
+  position: absolute;
+
+  background: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 60;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 15rem;
+  max-height: 20rem;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  border-top: 2px solid var(--c10);
+}
+
+.autocompleteSuggestion {
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.autocompleteSuggestion:hover {
+  background-color: var(--c10);
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap");
+
+.font-logo {
+  text-transform: uppercase;
+  font:
+    600 40px/30px "Genos",
+    sans-serif;
+}
+
+.font-xxl {
+  font:
+    600 64px/72px "Poppins",
+    sans-serif;
+}
+
+.font-xl {
+  font:
+    600 32px/40px "Poppins",
+    sans-serif;
+}
+
+.font-l {
+  font:
+    400 24px/36px "Poppins",
+    sans-serif;
+}
+
+.font-l-b {
+  font:
+    600 24px/36px "Poppins",
+    sans-serif;
+}
+
+.font-m {
+  font:
+    400 18px/24px "Poppins",
+    sans-serif;
+}
+
+.font-m-b {
+  font:
+    600 18px/24px "Poppins",
+    sans-serif;
+}
+
+.font-s {
+  font:
+    500 16px/24px "Poppins",
+    sans-serif;
+}
+.font-xs {
+  font:
+    600 12px/16px "Poppins",
+    sans-serif;
+}

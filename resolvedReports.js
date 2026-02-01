@@ -1,0 +1,35 @@
+export const data = [
+  {
+    district: "Liberdade",
+    street: "Rua Machado De Assis",
+    status: 2,
+    subregion: "São Luís",
+    id: 805776,
+    address: "São Luís_Liberdade",
+    geohash: "7p8986c",
+    created_at: "2025-12-17T19:41:09.622Z",
+    coordinates: { latitude: "-2.26471145", longitude: "-44.12487842" },
+    childrens: [
+      { severity: 2, created_at: "2025-07-26T19:41:09.622Z" },
+      { severity: 2, created_at: "2025-08-06T19:41:09.622Z" },
+      { severity: 2, created_at: "2025-07-23T19:41:09.622Z" },
+      { severity: 2, created_at: "2025-09-24T19:41:09.622Z" },
+      { severity: 2, created_at: "2025-06-08T19:41:09.622Z" },
+    ],
+  },
+  {
+    district: "Monte Castelo",
+    street: "Rua Paulo Fontin",
+    status: 2,
+    subregion: "São Luís",
+    id: 276401,
+    address: "São Luís_Monte Castelo",
+    geohash: "7p8986c",
+    created_at: "2025-12-18T19:41:09.622Z",
+    coordinates: { latitude: "-2.42346541", longitude: "-44.45415744" },
+    childrens: [
+      { severity: 2, created_at: "2025-06-17T19:41:09.622Z" },
+      { severity: 2, created_at: "2025-06-17T19:41:09.622Z" },
+    ],
+  },
+];

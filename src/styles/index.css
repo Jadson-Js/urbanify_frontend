@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(240, 242, 245);
+  font:
+    400 18px/24px "Poppins",
+    sans-serif;
+}
+
+:root {
+  /* Tons de cinza */
+  --c0: #000000;
+  --c1: #111111;
+  --c2: #2e2e2e;
+  --c3: #404040;
+  --c4: #595959;
+  --c5: #717171;
+  --c6: #9c9c9c;
+  --c7: #b2b2b2;
+  --c8: #cccccc;
+  --c9: #dedede;
+  --c10: #ededed;
+  --c11: #f7f7f7;
+  --c12: #ffffff;
+
+  /* Cores principais */
+  --p1: #007bff;
+  --p2: #2a6fb9;
+  --p3: #2f6aaa;
+  --p4: #335c89;
+  --p5: rgb(0, 21, 41);
+
+  /* Cores de alerta */
+  --red: #ff3e4d;
+  --yellow: #ffc107;
+  --green: #4caf50;
+}
